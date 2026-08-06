@@ -30,7 +30,6 @@ glass effects, synchronized lyrics, and seamless Spotify playback.
 - 💿 Animated vinyl record player
 - 🎨 Dynamic backgrounds generated from album artwork
 - 🌈 Adaptive accent colors
-- 📜 Live synchronized lyrics
 - 🎚️ Custom playback slider
 - 🪟 Native macOS SwiftUI interface
 - ⚡ Smooth animations throughout the app
@@ -42,22 +41,22 @@ glass effects, synchronized lyrics, and seamless Spotify playback.
 <table>
 <tr>
 <td align="center">
-<b>Compact Player</b><br><br>
-<img src="Images/CompactPlayer.png" width="430">
+<b>Mini Player</b><br><br>
+<img src="Images/mini.png" width="430">
 </td>
 <td align="center">
 <b>Record Player</b><br><br>
-<img src="Images/RecordPlayer.png" width="430">
+<img src="Images/record.png" width="430">
 </td>
 </tr>
 <tr>
 <td align="center">
 <b>Full Player</b><br><br>
-<img src="Images/FullPlayer.png" width="430">
+<img src="Images/full.png" width="430">
 </td>
 <td align="center">
-<b>Lyrics View</b><br><br>
-<img src="Images/Lyrics.png" width="430">
+<b>Compact Player</b><br><br>
+<img src="Images/controls.png" width="430">
 </td>
 </tr>
 </table>
