@@ -5,6 +5,11 @@ Pulse is a modern macOS music player built with SwiftUI that integrates with Spo
 ![Platform](https://img.shields.io/badge/macOS-26+-blue)
 ![Swift](https://img.shields.io/badge/Swift-6-orange)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-green)
+<p align="center">
+  <a href="https://github.com/608-N8/Pulse/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️-Download%20Latest%20Release-2ea44f?style=for-the-badge" alt="Download Pulse">
+  </a>
+</p>
 
 ## Features
 
