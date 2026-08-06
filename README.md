@@ -1,68 +1,78 @@
+<div align="center">
+<img src="Images/AppIcon.png" width="150" alt="Pulse Icon">
+
 # Pulse
 
-Pulse is a modern macOS music player built with SwiftUI that integrates with Spotify to provide a beautiful native desktop listening experience.
+### A beautiful native macOS Spotify client built with SwiftUI.
 
-![Platform](https://img.shields.io/badge/macOS-26+-blue)
-![Swift](https://img.shields.io/badge/Swift-6-orange)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-green)
-<p align="center">
+<p>
+A modern desktop music experience featuring dynamic album artwork, animated visuals,
+glass effects, synchronized lyrics, and seamless Spotify playback.
+</p>
+<p>
   <a href="https://github.com/608-N8/Pulse/releases/latest">
-    <img src="https://img.shields.io/badge/⬇️-Download%20Latest%20Release-2ea44f?style=for-the-badge" alt="Download Pulse">
+    <img src="https://img.shields.io/badge/⬇️-Download%20Latest%20Release-2ea44f?style=for-the-badge" alt="Download">
   </a>
 </p>
+<p>
+  <img src="https://img.shields.io/badge/macOS-26%2B-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Swift-6-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/SwiftUI-Native-success?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/608-N8/Pulse?style=for-the-badge">
+</p>
+</div>
 
-## Features
+---
+
+# ✨ Features
 
 - 🎵 Spotify playback controls
-- 💿 Animated record player
-- 🎨 Dynamic album artwork backgrounds
-- 🌈 Adaptive color theming
-- 📜 Lyrics view
-- 📈 Playback progress slider
+- 💿 Animated vinyl record player
+- 🎨 Dynamic backgrounds generated from album artwork
+- 🌈 Adaptive accent colors
+- 📜 Live synchronized lyrics
+- 🎚️ Custom playback slider
 - 🪟 Native macOS SwiftUI interface
-- ⚡ Lightweight and responsive
+- ⚡ Smooth animations throughout the app
 
-## Screenshots
+---
+
+# 📸 Screenshots
 
 <table>
-  <tr>
-    <td align="center">
-      <strong>Mini Player</strong><br><br>
-      <img src="Images/mini.png" width="400">
-    </td>
-    <td align="center">
-      <strong>Record Player</strong><br><br>
-      <img src="Images/record.png" width="400">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Full Player</strong><br><br>
-      <img src="Images/full.png" width="400">
-    </td>
-    <td align="center">
-      <strong>Compact Player</strong><br><br>
-      <img src="Images/controls.png" width="400">
-    </td>
-  </tr>
+<tr>
+<td align="center">
+<b>Compact Player</b><br><br>
+<img src="Images/CompactPlayer.png" width="430">
+</td>
+<td align="center">
+<b>Record Player</b><br><br>
+<img src="Images/RecordPlayer.png" width="430">
+</td>
+</tr>
+<tr>
+<td align="center">
+<b>Full Player</b><br><br>
+<img src="Images/FullPlayer.png" width="430">
+</td>
+<td align="center">
+<b>Lyrics View</b><br><br>
+<img src="Images/Lyrics.png" width="430">
+</td>
+</tr>
 </table>
 
-## Requirements
+---
 
-- macOS 15.6+
-- Xcode 26+
-- Spotify Premium account
-- Spotify Developer application
+# 🚀 Installation
 
-## Installation
-
-Clone the repository:
+Clone the repository
 
 ```bash
 git clone https://github.com/608-N8/Pulse.git
 ```
 
-Open:
+Open
 
 ```
 Pulse.xcodeproj
@@ -70,30 +80,75 @@ Pulse.xcodeproj
 
 Build and run.
 
-## Spotify Setup
+---
 
-Pulse requires your own Spotify Developer application.
+# 🎧 Spotify Setup
 
-Create one at:
+Pulse uses the Spotify Web API.
 
-https://developer.spotify.com/dashboard
+1. Create a Spotify Developer application.
+2. Obtain your Client ID.
+3. Replace the Client ID inside the project.
+4. Build and launch Pulse.
 
-Then configure your Client ID in the project.
+> Your Spotify **Client Secret should never be committed**.
 
-> Never commit your Client Secret.
+---
 
-## Roadmap
+# 🖥 Requirements
 
-- [ ] Queue support
-- [ ] Volume control
-- [ ] Mini Player improvements
-- [ ] Playlist browsing
-- [ ] Apple Music support (planned)
+| Requirement | Version |
+|--------------|---------|
+| macOS | 26+ |
+| Xcode | 26+ |
+| Swift | 6 |
+| Spotify Premium | Required |
 
-## Contributing
+---
 
-Pull requests and suggestions are welcome.
+# 🛣 Roadmap
 
-## License
+### Version 1.1
 
-MIT License
+- [ ] Volume Control
+- [ ] Queue Support
+- [ ] Better Mini Player
+- [ ] More Player Animations
+
+### Version 1.2
+
+- [ ] Playlist Browser
+- [ ] Album Browser
+- [ ] Recently Played
+
+### Version 2.0
+
+- [ ] Apple Music Support
+- [ ] Last.fm Integration
+- [ ] Themes
+- [ ] Equalizer
+
+---
+
+# 🛠 Built With
+
+- Swift
+- SwiftUI
+- AppKit
+- Spotify Web API
+
+---
+
+# 🤝 Contributing
+
+Contributions, feature requests, and bug reports are always welcome.
+
+If you'd like to improve Pulse, feel free to fork the repository and open a pull request.
+
+---
+
+# 📄 License
+
+Pulse is licensed under the MIT License.
+
+See the `LICENSE` file for more information.
