@@ -21,23 +21,23 @@ Pulse is a modern macOS music player built with SwiftUI that integrates with Spo
 
 ### Mini Player
 
-![Mini Player](Images/mini-player.png)
+![Mini Player](Images/mini.png)
 
 ### Vinyl View
 
-![Vinyl View](Images/record-player.png)
+![Vinyl View](Images/record.png)
 
 ### Full Player
 
-![Full Player](Images/full-player.png)
+![Full Player](Images/full.png)
 
 ### Compact Player
 
-![Compact Player](Images/compact-player.png)
+![Compact Player](Images/controls.png)
 
 ## Requirements
 
-- macOS 26+
+- macOS 15.6+
 - Xcode 26+
 - Spotify Premium account
 - Spotify Developer application
