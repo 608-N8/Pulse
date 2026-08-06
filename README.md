@@ -19,15 +19,27 @@ Pulse is a modern macOS music player built with SwiftUI that integrates with Spo
 
 ## Screenshots
 
-<table></table>
-<tr>
-<td><img src="Images/mini-player.png" width="400"></td>
-<td><img src="Images/full-player.png" width="400"></td>
-</tr>
-<tr>
-<td><img src="Images/record-player.png" width="400"></td>
-<td><img src="Images/compact-player.png" width="400"></td>
-</tr>
+<table>
+  <tr>
+    <td align="center">
+      <strong>Mini Player</strong><br><br>
+      <img src="Images/mini.png" width="400">
+    </td>
+    <td align="center">
+      <strong>Record Player</strong><br><br>
+      <img src="Images/record.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Full Player</strong><br><br>
+      <img src="Images/full.png" width="400">
+    </td>
+    <td align="center">
+      <strong>Compact Player</strong><br><br>
+      <img src="Images/controls.png" width="400">
+    </td>
+  </tr>
 </table>
 
 ## Requirements
